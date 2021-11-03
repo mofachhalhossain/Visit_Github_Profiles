@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&family=Zen+Old+Mincho&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Zen Old Mincho", serif;
+  margin: 0;
+  background-color: #2f4353;
+  background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+input {
+  background-color: rgb(250, 255, 240);
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+  color: rgb(243, 28, 28);
+  border: 2px solid #0cbaba;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+input::placeholder {
+  color: #0cbaba;
+}
+input:focus {
+  outline: none;
+}
+.card {
+  background-color: #e7eff9;
+  background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
+  display: flex;
+  padding: 3rem;
+  border-radius: 20px;
+  max-width: 800px;
+  box-shadow: 0 5px 10px rgba(10, 42, 168, 0.856),
+    0 15px 40px rgba(6, 21, 80, 0.767);
+}
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid transparent;
+}
+.user-info {
+  margin-left: 2rem;
+  color: rgb(240, 66, 66);
+}
+.user-info h2 {
+  margin-top: 0;
+}
+.user-info ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 300px;
+  list-style-type: none;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repos {
+  list-style-type: none;
+  display: inline;
+  color: #cccc;
+}
