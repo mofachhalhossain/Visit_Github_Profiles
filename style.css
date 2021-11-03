@@ -15,6 +15,21 @@ body {
   flex-direction: column;
 }
 input {
+  background-color: rgb(250, 255, 240);
+  border-radius: 10px;
+  width: 200px;
+  padding: 1rem;
+  color: rgb(243, 28, 28);
+  border: 2px solid #0cbaba;
+  font-family: inherit;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+input::placeholder {
+  color: #0cbaba;
+}
+input:focus {
+  outline: none;
 }
 .card {
   background-color: #e7eff9;
@@ -46,6 +61,7 @@ input {
   width: 300px;
   list-style-type: none;
 }
+
 .img-container {
   display: flex;
   justify-content: center;

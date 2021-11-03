@@ -3,7 +3,7 @@ const main = document.getElementById('main');
 const form = document.getElementById('form');
 const search = document.getElementById('search');
 
-getUser("foyzulkarim");
+/* getUser("mofachhalhossain"); */
 
 async function getUser(user) {
   const response = await fetch(APIURL + user);
@@ -23,9 +23,9 @@ function createUserCard(user) {
         <h2>${user.name}</h2>
         <p>${user.bio}</p>
         <ul class="info">
-            <li>Public Repos: ${user.public_repos}</li>
-            <li>Followers: ${user.followers}</li>
-            <li>Following: ${user.following}</li>
+            <li><strong>Public Repos</strong>: ${user.public_repos}</li>
+            <li><strong>Followers</strong>: ${user.followers}</li>
+            <li><strong>Following</strong>: ${user.following}</li>
         </ul>
     </div>
     </div>
