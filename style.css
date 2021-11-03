@@ -61,9 +61,13 @@ input:focus {
   width: 300px;
   list-style-type: none;
 }
-
 .img-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.repos {
+  list-style-type: none;
+  display: inline;
+  color: #cccc;
 }
